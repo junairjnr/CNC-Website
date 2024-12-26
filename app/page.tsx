@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Dashboard from './card/page';
 import Navbar from './components/Navbar';
 import Cart from './components/Cart';
-import BeautifulScanner from './components/QRcode';
 import { Fragment, useState } from 'react';
 
 export default function Home() {
