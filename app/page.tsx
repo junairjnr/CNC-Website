@@ -331,6 +331,7 @@
 import React from "react"
 import Donec from "./dashSev/page.jsx"
 import Progress from "./progress/page.jsx"
+import TaskSearch from "./taskSearch/page.jsx"
 export default function Home() {
 
   const bars = [5, 10, 20, 40, 80, 1]
@@ -338,9 +339,12 @@ export default function Home() {
   return (
     <div>
       {/* <Donec /> */}
-      {bars.map((x) =>
+      {/* {bars.map((x) =>
         <Progress key={x} progress={x} />
-      )}
+      )} */}
+      {
+        <TaskSearch />
+      }
     </div>
   )
 }
